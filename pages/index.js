@@ -11,6 +11,8 @@ export default function HomePage() {
     event.preventDefault();
     const enteredEmail = emailInputRef.current.value;
     const enteredFeedback = feedbackInputRef.current.vaule;
+
+    fetch(); // { email: 'test@test.com, text: 'some feedback text'}
   }
 
   return (
